@@ -1,0 +1,2263 @@
+/*デスクトップパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+	.header-logo img{
+	width: 650px;
+	height: 240px;
+	padding-left: 100px;
+   }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px){
+     .header-logo img {
+	width: 50%;
+	height: auto;
+    }
+}
+
+/*ノートパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px){
+    .header-logo img {
+        width: 400px;
+        height: auto;
+        
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 896px){
+    .header-logo img {
+        width: 50%;
+        height: auto;
+      }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 640px) and (orientation: portrait){
+    .header-logo img {
+        width: 510px;
+        height: auto;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 568px) and (orientation: landscape){
+    .header-logo img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 450px) and (orientation: portrait){
+	.header-logo img {
+		width: 100%;
+	}
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 414px)and (orientation: portrait) {
+    .header-logo img {
+        width: 500px;
+        height: 200px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 360px)and (orientation: portrait) {
+    .header-logo img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 280px)and (orientation: portrait) {
+	.header-logo img {
+		width: 160%;
+	}
+}
+
+/*デスクトップ向けパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+    .searchBox {
+	position: absolute;
+	top: 10%;
+	left: 60%;
+	bottom: 80%;
+	background: #87CEFA;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	
+   }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    .searchBox {
+        position: absolute;
+        left: 50%;
+        top: 5%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    .searchBox {
+        position: absolute;
+        top: 5%;
+        left: 60%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 640px) and (orientation: landscape){
+    .searchBox {
+        position: absolute;
+        left: 80%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 540px) and (orientation: portrait) {
+    .searchBox {
+        position: absolute;
+        top: 5%;
+        left: 100%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 520px) and (orientation: portrait) {
+    .searchBox {
+        position: absolute;
+        top: 5%;
+        left: 110%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 450px) and (orientation: portrait){
+	.searchBox {
+		position: absolute;
+		left: 130%;
+		top: 5%;
+	}
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 414px) and (orientation: portrait){
+    .searchBox {
+        position: absolute;
+        left: 145%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 320px) and (orientation: portrait) {
+    .searchBox {
+        position: absolute;
+        left: 180%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 280px) and (orientation: portrait) {
+	.searchBox {
+		position: absolute;
+		left: 170%;
+	}
+}
+
+/*デスクトップ向けパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+    .searchBox:hover > .searchInput {
+	width: 240px;
+	padding: 0 6px;
+   }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 414px) and (orientation: portrait){
+    .searchBox:hover > .searchInput {
+	width: 300px;
+	padding: 0 6px;
+   }
+}
+
+/*デスクトップパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px) and (orientation: landscape) {
+    .Video {
+       position: absolute;
+       left: 650px;
+       top: 700px;
+       width: 30%;
+       height: 200%;
+    }
+}
+
+/*ノートパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+    .Video {
+        position: absolute;
+        left: 400px;
+        width: 35%;
+
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1114px) and (orientation: landscape) {
+    .Video {
+        position: absolute;
+        top: 600px;
+        left: 330px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .Video {
+        position: absolute;
+        left: 300px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    .Video {
+        position: absolute;
+        left: 330px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .Video {
+        position: absolute;
+        top: 550px;
+        left: 320px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 768px) and (orientation: portrait) {
+     .Video {
+         position: absolute;
+         left: 120px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .Video {
+        position: absolute;
+        left: 350px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 731px) and (orientation: landscape) {
+    .Video {
+        position: absolute;
+        top: 550px;
+        left: 330px;
+
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: portrait) {
+    .Video {
+        position: absolute;
+        left: 120px;
+   }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: landscape) {
+    .Video {
+        position: absolute;
+        top: 550px;
+        left: 330px;
+
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 717px) and (orientation: landscape) {
+    .Video {
+        position: absolute;
+        top: 550px;
+        left: 330px;
+
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 667px) and (orientation: landscape) {
+   .Video {
+       position: absolute;
+       left: 330px;
+   }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 653px) and (orientation: landscape) {
+    .Video {
+        position: absolute;
+        left: 300px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .Video {
+        position: absolute;
+        top: 500px;
+        left: 340px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 540px) and (orientation: portrait) {
+    .Video {
+        position: absolute;
+        left: 200px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 512px) and (orientation: portrait) {
+    .Video {
+        position: absolute;
+        left: 150px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 414px) and (orientation: portrait) {
+    .Video {
+         position: absolute;
+         left: 190px;  
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 411px) and (orientation: portrait){
+    .Video {
+        position: absolute;
+        left: 170px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 375px)and (orientation: portrait) {
+    .Video {
+        position: absolute;
+        left: 180px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 360px) and (orientation: portrait) {
+    .Video {
+        position: absolute;
+        left: 150px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 320px) and (orientation: portrait) {
+    .Video {
+        position: absolute;
+        left: 180px;
+    }
+}
+
+/*デスクトップパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+    .text h1 {
+    position: relative;
+    top: -350px;
+    font-size: 80px;
+   } 
+}
+
+/*ノートパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+    .text h1 {
+        position: relative;
+        left: -250px;
+        top: -350px;
+        width: 100%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1114px) and (orientation: landscape) {
+    .text h1 {
+        position: relative;
+        left: -320px;
+        top: -500px;
+        width: 150%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px)and (orientation: portrait) {
+    .text h1 {
+        position: relative;
+        left: -315px;
+        top: -550px;
+        width: 160%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .text h1 {
+        position: relative;
+        left: -350px;
+        top: -450px;
+        width: 160%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .text h1 {
+        position: relative;
+        left: -330px;
+        top: -550px;
+        width: 350%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 812px) and (orientation: landscape) {
+    .text h1{
+        position: relative;
+        left: -330px;
+        top: -550px;
+        width: 400%;
+    }
+}
+    
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    .text h1 {
+       position: relative;
+       left: -400px;
+       top: -600px;
+       width: 250%;
+       font-size: 40px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .text h1{
+        position: relative;
+        left: -300px;
+        width: 500%;
+    }
+}
+    
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 731px) and (orientation: landscape){
+    .text h1 {
+        position: relative;
+        left: -310px;
+        top: -600px;
+        width: 400%;
+    } 
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: portrait) {
+    .text h1 {
+       position: relative;
+       left: -400px;
+       top: -600px;
+       width: 300%;
+       font-size: 40px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: landscape) {
+    .text h1 {
+        position: relative;
+        left: -310px;
+        top: -600px;
+        width: 400%;
+    } 
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 717px) and (orientation: landscape){
+    .text h1 {
+        position: relative;
+        left: -310px;
+        top: -600px;
+        width: 400%;
+    } 
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 667px) and (orientation: landscape) {
+    .text h1 {
+        position: relative;
+        left: -340px;
+        top: -600px;
+        width: 400%;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 653px) and (orientation: landscape) {
+    .text h1 {
+        position: relative;
+        left: -350px;
+        top: -600px;
+        width: 400%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 640px) and (orientation: landscape){
+    .text h1 {
+        position: relative;
+        top: -600px;
+        left: -310px;
+        width: 400%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 540px) and (orientation: portrait) {
+    .text h1 {
+        position: relative;
+        left: -300px;
+        top: -500px;
+        width: 400%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 512px) and (orientation: portrait) {
+    .text h1 {
+        position: relative;
+        left: -380px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 414px) and (orientation: portrait){
+    .text h1{
+        position: relative;
+        top: -500px;
+        left: -340px;
+        width: 300%;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 411px)and (orientation: portrait){
+    .text h1 {
+        position: relative;
+        left: -350px;
+        top: -500px;
+        width: 300%;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 375px)and (orientation: portrait){
+    .text h1 {
+        position: relative;
+        left: -350px;
+        top: -520px;
+        width: 300%;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 360px)and (orientation: portrait) {
+    .text h1 {
+        position: relative;
+        left: -350px;
+        top: -600px;
+        width: 280%;
+        font-size: 40px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 320px)and (orientation: portrait) {
+    .text h1 {
+        position: relative;
+        left: -330px;
+    }
+}
+
+/*デスクトップパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+    .text h3 {
+    position: relative;
+    top: -340px;
+    text-align: center;
+    font-size: 60px;
+   }
+}
+
+/*ノートパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+    .text h3 {
+        position: relative;
+        left: -250px;
+        top: -330px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1114px) and (orientation: landscape) {
+    .text h3 {
+        position: relative;
+        left: -300px;
+        top: -450px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px)and (orientation: portrait) {
+    .text h3 {
+        position: relative;
+        top: -550px;
+        left: -230px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .text h3 {
+        position: relative;
+        top: -400px;
+        left: -280px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 823px) and (orientation: landscape){
+    .text h3 {
+        position: relative;
+        left: -320px;
+        top: -500px;
+        width: 300%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 812px) and (orientation: landscape) {
+    .text h3 {
+        position: relative;
+        left: -320px;
+        top: -500px;
+        width: 300%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    .text h3 {
+        position: relative;
+        left: -370px;
+        top: -570px;
+        width: 200%;
+        font-size: 40px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 736px) and (orientation: landscape){
+    .text h3 {
+        position: relative;
+        left: -250px;
+    }
+}
+    
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 731px) and (orientation: landscape){
+    .text h3 {
+        position: relative;
+        top: -610px;
+        left: -300px;
+        width: 300%;
+    }  
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: portrait) {
+    .text h3 {
+        position: relative;
+        left: -370px;
+        top: -590px;
+        width: 200%;
+        font-size: 40px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: landscape) {
+    .text h3 {
+        position: relative;
+        top: -610px;
+        left: -300px;
+        width: 300%;
+    }  
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 717px) and (orientation: landscape) {
+    .text h3 {
+        position: relative;
+        top: -610px;
+        left: -300px;
+        width: 300%;
+    }  
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 667px) and (orientation: landscape) {
+   .text h3 {
+       position: relative;
+       top: -610px;
+       left: -300px;
+       width: 300%;
+   }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 653px) and (orientation: landscape) {
+    .text h3 {
+        position: relative;
+        top: -610px;
+        left: -300px;
+        width: 300%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .text h3 {
+        position: relative;
+        left: -210px;
+        top: -560px;
+        width: 200%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 540px) and (orientation: portrait){
+    .text h3 {
+        position: relative;
+        left: -270px;
+        top: -480px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 512px) and (orientation: portrait) {
+    .text h3 {
+        position: relative;
+        left: -340px;
+    }
+}
+
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 414px) and (orientation: portrait){
+    .text h3{
+        position: relative;
+        top: -520px;
+        left: -300px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 411px)and (orientation: portrait){
+    .text h3{
+        position: relative;
+        left: -320px;
+        top: -500px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 375px)and (orientation: portrait){
+    .text h3{
+        position: relative;
+        left: -320px;
+        top: -500px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 360px)and (orientation: portrait) {
+    .text h3 {
+        position: relative;
+        left: -320px;
+        top: -570px;
+        width: 200%;
+        font-size: 40px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 320px)and (orientation: portrait) {
+    .text h3 {
+        position: relative;
+        left: -310px;
+    }
+}
+
+/*デスクトップ向けパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+    .text2 h1 {
+    position: relative;
+    top: -330px;
+    font-size: 40px;
+   }
+}
+
+/*ノートパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+    .text2 h1 {
+        position: relative;
+        left: -250px;
+        top: -330px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1114px) and (orientation: landscape) {
+    .text2 h1 {
+        position: relative;
+        left: -250px;
+        top: -450px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px)and (orientation: portrait){
+    .text2 h1 {
+        position: relative;
+        left: -200px;
+        top: -550px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .text2 h1 {
+        position: relative;
+        left: -250px;
+        top: -400px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .text2 h1 {
+        position: relative;
+        top: -490px;
+        left: -370px;
+        width: 350%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 812px) and (orientation: landscape) {
+    .text2 h1 {
+        position: relative;
+        top: -490px;
+        left: -370px;
+        width: 350%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    .text2 h1 {
+        position: relative;
+        left: -360px;
+        top: -670px;
+        width: 200%;
+        font-size: 35px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 736px) and (orientation: landscape){
+    .text2 h1{
+        position: relative;
+        left: -300px;
+        width: 500%;
+    }
+}
+    
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 731px) and (orientation: landscape){
+    .text2 h1{
+        position: relative;
+        top: -590px;
+        left: -230px;
+        width: 320%;
+    } 
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: portrait) {
+    .text2 h1{
+        position: relative;
+        left: -350px;
+        top: -710px;
+        width: 200%;
+        font-size: 35px;
+    } 
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: landscape) {
+    .text2 h1{
+        position: relative;
+        top: -590px;
+        left: -230px;
+        width: 320%;
+    } 
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 717px) and (orientation: landscape) {
+    .text2 h1{
+        position: relative;
+        top: -590px;
+        left: -230px;
+        width: 320%;
+    } 
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 667px) and (orientation: landscape) {
+    .text2 h1{
+        position: relative;
+        top: -590px;
+        left: -230px;
+        width: 320%;
+    } 
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .text2 h1 {
+        position: relative;
+        left: -190px;
+        top: -560px;
+        width: 270%;
+        
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 653px) and (orientation: landscape) {
+    .text2 h1 {
+        position: relative;
+        left: -190px;
+        top: -580px;
+        width: 270%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 540px) and (orientation: portrait){
+    .text2 h1 {
+        position: relative;
+        left: -250px;
+        top: -600px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 512px) and (orientation: portrait) {
+    .text2 h1 {
+        position: relative;
+        left: -330px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 414px) and (orientation: portrait){
+    .text2 h1 {
+        position: relative;
+        left: -280px;
+        top: -650px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 411px)and (orientation: portrait){
+    .text2 h1 {
+        position: relative;
+        left: -310px;
+        top: -620px;
+        width: 230%;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 375px)and (orientation: portrait){
+    .text2 h1 {
+        position: relative;
+        left: -310px;
+        top: -620px;
+        width: 230%;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 360px)and (orientation: portrait) {
+    .text2 h1 {
+        position: relative;
+        left: -310px;
+        top: -690px;
+        width: 200%;
+        font-size: 35px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 320px)and (orientation: portrait) {
+    .text2 h1 {
+        position: relative;
+        left: -280px;
+    }
+}
+
+/*デスクトップ向けパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+    .text2 h3 {
+    position: relative;
+    top: -340px;
+    font-size: 35px;
+   }
+}
+
+/*ノートパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+    .text2 h3 {
+       position: relative;
+       left: -250px;
+       top: -310px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1114px) and (orientation: landscape) {
+    .text2 h3 {
+        position: relative;
+        top: -450px;
+        left: -250px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px)and (orientation: portrait){
+    .text2 h3 {
+        position: relative;
+        left: -210px;
+        top: -530px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .text2 h3 {
+        position: relative;
+        left: -260px;
+        top: -400px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .text2 h3 {
+        position: relative;
+        top: -490px;
+        left: -350px;
+        width: 300%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 812px) and (orientation: landscape) {
+    .text2 h3 {
+        position: relative;
+        top: -490px;
+        left: -350px;
+        width: 300%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    .text2 h3 {
+       position: relative;
+       left: -350px;
+       top: -650px;
+       width: 200%;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 736px) and (orientation: landscape){
+    .text2 h3 {
+        position: relative;
+        left: -190px;
+        width: 300%;
+    }
+}
+    
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 731px) and (orientation: landscape){
+    .text2 h3 {
+        position: relative;
+        top: -550px;
+        left: -360px;
+        width: 500%;
+    }   
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: portrait) {
+    .text2 h3 {
+        position: relative;
+        left: -350px;
+        top: -710px;
+        width: 200%;
+     }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: landscape) {
+    .text2 h3 {
+        position: relative;
+        top: -550px;
+        left: -360px;
+        width: 500%;
+    }   
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 717px) and (orientation: landscape) {
+    .text2 h3 {
+        position: relative;
+        top: -550px;
+        left: -350px;
+        width: 500%;
+    }   
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 667px) and (orientation: landscape) {
+    .text2 h3 {
+        position: relative;
+        top: -560px;
+        left: -360px;
+        width: 500%;
+    }   
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 653px) and (orientation: landscape) {
+    .text2 h3 {
+        position: relative;
+        top: -550px;
+        left: -200px;
+        width: 300%;
+        
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .text2 h3 {
+        position: relative;
+        top: -550px;
+        left: -200px;
+        width: 300%;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 540px) and (orientation: portrait){
+    .text2 h3 {
+        position: relative;
+        top: -590px;
+        left: -250px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 512px) and (orientation: portrait) {
+    .text2 h3 {
+        position: relative;
+        left: -330px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 414px) and (orientation: portrait){
+    .text2 h3 {
+        position: relative;
+        top: -645px;
+        left: -290px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 411px)and (orientation: portrait){
+    .text2 h3 {
+        position: relative;
+        left: -350px;
+        top: -640px;
+        width: 300%;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 360px)and (orientation: portrait){
+    .text2 h3 {
+       position: relative;
+       left: -300px;
+       top: -660px;
+       width: 200%;
+    }
+}
+
+/*デスクトップ向けパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+	.contentu-item h1 {
+    position: absolute;
+    top: -340px;
+    color: white;
+    width: 460px;
+    padding-left: 5px;
+  }
+}
+
+/*ノートパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+	.contentu-item h1 {
+		position: absolute;
+		left: -250px;
+        top: -300px;
+	}
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1114px) and (orientation: landscape) {
+    .contentu-item h1 {
+        position: absolute;
+        left: -310px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .contentu-item h1 {
+        position: absolute;
+        left: -350px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+	.contentu-item h1 {
+		position: absolute;
+		left: -300px;
+		top: -400px;
+	}
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .contentu-item h1 {
+        position: absolute;
+        top: -430px;
+        left: -320px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 812px) and (orientation: landscape) {
+    .contentu-item h1 {
+        position: absolute;
+        top: -430px;
+        left: -320px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 768px) and (orientation: portrait) {
+	.contentu-item h1 {
+		position: absolute;
+		top: -350px;
+		left: -110px;
+		color: white;	
+	}
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .contentu-item h1 {
+        position: relative;
+		top: -400px;
+        left: -290px;
+        font-size: 30px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 731px) and (orientation: landscape) {
+    .contentu-item h1 {
+        position: absolute;
+        top: -420px;
+        left: -290px;
+        font-size: 30px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: portrait) {
+    .contentu-item h1 {
+		position: absolute;
+		top: -300px;
+		left: -110px;
+		color: white;	
+	}
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: landscape) {
+    .contentu-item h1 {
+        position: absolute;
+        top: -420px;
+        left: -290px;
+        font-size: 30px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 717px) and (orientation: landscape) {
+    .contentu-item h1 {
+        position: absolute;
+        top: -420px;
+        left: -290px;
+        font-size: 30px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 667px) and (orientation: landscape) {
+    .contentu-item h1 {
+        position: absolute;
+        top: -410px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 653px) and (orientation: landscape) {
+    .contentu-item h1 {
+        position: absolute;
+        top: -410px;
+        left: -300px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 640px) and (orientation: landscape){
+    .contentu-item h1 {
+        position: absolute;
+        top: -450px;
+        left: -340px;
+        width: 100%;
+        font-size: 35px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 600px) and (orientation: landscape) {
+	.contentu-item h1 {
+		position: absolute;
+		top: 250px;
+	}	
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 568px) and (orientation: landscape) {
+    .contentu-item h1 {
+        position: absolute;
+        top: -400px;
+        left: -300px;
+        font-size: 30px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 540px) and (orientation: portrait) {
+    .contentu-item h1 {
+        width: 50%;
+        position: absolute;
+        top: -200px;
+        left: 70px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 512px) and (orientation: portrait) {
+    .contentu-item h1 {
+        position: absolute;
+        left: 10px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 450px) and (orientation: portrait){
+	.contentu-item h1 {
+		position: absolute;
+		top: 200px;
+	}
+}
+
+/*スマートフォン向けのレイアウト（縦2）*/
+@media screen and (max-width: 414px) and (orientation: portrait) {
+    .contentu-item h1 {
+        position: relative;
+        top: -250px;
+        left: -70px;
+        width: 100%;
+        color: white;
+    }
+}
+
+/*スマートフォン向けのレイアウト（縦2）*/
+@media screen and (max-width: 411px) and (orientation: portrait) {
+    .contentu-item h1 {
+        color: white;
+        position: relative;
+        top: -390px;
+        left: -50px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 375px) and (orientation: portrait){
+    .contentu-item h1{
+        position: relative;
+        top: -390px;
+        left: -50px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 360px) and (orientation: portrait) {
+    .contentu-item h1 {
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: -20px;
+        width: 50%;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 280px) and (orientation: portrait) {
+	.contentu-item h1 {
+		position: absolute;
+		top: 215px;
+		left: -90px;
+		font-size: 30px;
+        width: 100%;
+	}
+}
+
+/*デスクトップ向けパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+	.contentu-item {
+    position: absolute;
+    top: 2000px;
+    left: 700px;
+　　}
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 768px) and (orientation: portrait) {
+	.contentu-item {
+		position: absolute;
+		top : 1855px;
+		left: 300px;
+	}
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 360px) and (orientation: portrait) {
+    .contentu-item {
+        position: absolute;
+        top: 1400px;
+        left: 350px;
+    }
+}
+
+/*デスクトップ向けパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+.contentu-item img {
+    position: relative;
+    top: -250px;
+    padding: 0 50px;
+    border-radius: 50%;
+    }
+}
+
+/*ノートパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+	.contentu-item img {
+		position: relative;
+		left: -300px;
+		top: -200px;
+	}
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1114px) and (orientation: landscape) {
+    .contentu-item img {
+        position: relative;
+        left: -350px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px)and (orientation: portrait) {
+    .contentu-item img {
+        position: relative;
+        left: -350px;
+        top: -350px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px)and (orientation: landscape) {
+	.contentu-item img {
+		position: relative;
+		left: -390px;
+		top: -220px;
+	}
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 823px) and (orientation: landscape){
+    .contentu-item img {
+        position: relative;
+        top: -310px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 812px) and (orientation: landscape){
+    .contentu-item img {
+        position: relative;
+        top: -310px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 768px) and (orientation: portrait) {
+	.contentu-item img {
+	  position: relative;
+	  top: -300px;
+	  left: -160px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .contentu-item img {
+        position: relative;
+        top: -435px;
+        left: -350px;
+    }
+}
+    
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 731px) and (orientation: landscape) {
+     .contentu-item img {
+         position: relative;
+         top: -320px;
+   }  
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: portrait) {
+    .contentu-item img {
+        position: relative;
+        top: -230px;
+        left: -160px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: landscape) {
+    .contentu-item img {
+        position: relative;
+        top: -320px;
+  }  
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 717px) and (orientation: landscape) {
+    .contentu-item img {
+        position: relative;
+        top: -320px;
+        left: -350px;
+  }  
+}
+    
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 667px) and (orientation: landscape) {
+    .contentu-item img {
+        position: relative;
+        top: -300px;
+        left: -350px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 653px) and (orientation: landscape) {
+    .contentu-item img {
+        position: relative;
+        top: -300px;
+        left: -350px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 640px) and (orientation: landscape){
+    .contentu-item img {
+        position: relative;
+        top: -350px;
+        left: -350px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 600px) and (orientation: landscape) {
+	.contentu-item img {
+		position: relative;
+		top: 300px;
+	}
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 568px) and (orientation: landscape) {
+    .contentu-item img {
+        position: relative;
+        top: -350px;
+     }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 540px) and (orientation: portrait) {
+    .contentu-item img {
+        position: relative;
+        top: -50px;
+        left: -90px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 512px) and (orientation: portrait){
+    .contentu-item img {
+       position: relative; 
+       left:-120px;
+   }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 450px) and (orientation: portrait){
+	.contentu-item img {
+		position: relative;
+		top: 320px;
+	}
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 414px) and (orientation: portrait) {
+    .contentu-item img {
+        position: relative;
+        top: -250px;
+        left: -100px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 411px) and (orientation: portrait){
+    .contentu-item img {
+        position: relative;
+        top: -400px;
+        left: -90px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 375px) and (orientation: portrait){
+    .contentu-item img {
+        position: relative;
+        top: -400px;
+        left: -90px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 360px) and (orientation: portrait){
+     .contentu-item img {
+        position: relative;
+        top: 300px;
+        left: -160px;
+   }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 280px) and (orientation: portrait){
+    .contentu-item img {
+       position: relative;
+       top: 300px;
+       left: -160px;
+  }
+}
+
+/*デスクトップパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+   .cp_slide_item {
+   width: 300px;
+   height: 200px;
+   float: left;
+   position: relative;
+  }
+}
+
+/*デスクトップパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+    .cp_slide_item img {
+        width: 100%;
+    }
+}
+
+/*デスクトップパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px){
+    .cp_slide_item img {
+        width: 100%;
+    }
+}
+
+/*デスクトップパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+.cp_cssslider {
+    width: 900px;
+    height: 200px;
+    overflow: hidden;
+    margin: 2em auto;
+    border: 10px solid #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0,5);
+    position: absolute;
+    top: 2300px;
+    left: 500px;
+  }
+}
+
+/*ノートパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+    .cp_cssslider {
+        left: 250px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1114px) and (orientation: landscape) {
+    .cp_cssslider {
+        left: 150px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+     .cp_cssslider {
+        left: 150px;
+        top: 2150px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px)and (orientation: landscape) {
+    .cp_cssslider {
+        left: 100px;
+        top: 2300px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .cp_cssslider {
+        top: 2200px;
+        left: 150px;
+   }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 812px) and (orientation: landscape) {
+    .cp_cssslider {
+        top: 2200px;
+        left: 150px;
+   }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 768px) and (orientation: portrait){
+    .cp_cssslider {
+        position: absolute;
+        width: 600px;
+        left: 90px;
+        top: 2100px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .cp_cssslider{
+        position: absolute;
+        left: 150px;
+        top: 2200px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 731px) and (orientation: landscape) {
+    .cp_cssslider{
+        position: absolute;
+        top: 2200px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: landscape) {
+    .cp_cssslider{
+        position: absolute;
+        top: 2200px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 667px) and (orientation: landscape) {
+    .cp_cssslider {
+        position: absolute;
+        left: 150px;
+        top: 2200px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 640px) and (orientation: landscape){
+    .cp_cssslider {
+        position: absolute;
+        width: 900px;
+        left: 150px;
+        top: 2200px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 568px) and (orientation: landscape) {
+   .cp_cssslider {
+       position: absolute;
+       top: 2100px;
+   }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 540px) and (orientation: portrait){
+    .cp_cssslider {
+        position: absolute;
+        top: 2350px;
+        left: 150px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 414px) and (orientation: portrait){
+    .cp_cssslider {
+        position: absolute;
+        left: 170px;
+        top: 2150px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 411px) and (orientation: portrait){
+    .cp_cssslider {
+       position: absolute;
+       left: 180px;
+       top: 2060px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 375px) and (orientation: portrait){
+    .cp_cssslider {
+        position: absolute;
+        top: 2050px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 360px)and (orientation: portrait){
+    .cp_cssslider {
+        position: absolute;
+        top: 2200px;
+        left: 150px;
+    }
+}
+
+/*デスクトップパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+    .cp_slidewrapper {
+    width: 800%;/* slideの枚数×100% */
+    position: relative;
+    left: 15;
+    animation: slider 60s infinite ease;/* スピード */
+   }
+}
+
+/*ノートパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px) and (orientation: landscape){
+    .cp_slidewrapper {
+        position: relative;
+        left: 100pz;
+    }
+}
+
+/*デスクパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){ 
+    @-webkit-keyframes slider {
+    /* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	10% {
+	-webkit-transform: translateX(-300px);
+	transform: translateX(-300px);
+	}
+	20% {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+	}
+	30% {
+	-webkit-transform: translateX(-900px);
+	transform: translateX(-900px);
+	}
+	40% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+	50% {
+	-webkit-transform: translateX(-1500px);
+	transform: translateX(-1500px);
+	}
+    60% {
+    -webkit-transform: translateX(-1800px);
+    transform: translateX(-1800px);
+    }
+    70% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);      
+        }
+   }
+ }
+
+
+/*デスクパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+    @keyframes slider{
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	10% {
+	-webkit-transform: translateX(-300px);
+	transform: translateX(-300px);
+	}
+	20% {
+	-webkit-transform: translateX(-600px);
+	transform: translateX(-600px);
+	}
+	30% {
+	-webkit-transform: translateX(-900px);
+	transform: translateX(-900px);
+	}
+	40% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+	50% {
+	-webkit-transform: translateX(-1500px);
+	transform: translateX(-1500px);
+	}
+    60% {
+    -webkit-transform: translateX(-1800px);
+    transform: translateX(-1800px);
+    }
+    70% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);      
+    }
+   }
+ }
+    
+/*デスクトップ向けパソコン向けのレイアウト*/
+@media screen and (max-width: 1920px){
+	.footer {
+	width: 98vw;
+	position: absolute;
+	top: 2500px;
+	bottom: 0px;
+   }
+}
+
+/*ノートパソコン向けのレイアウト*/
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+	.footer {
+		position: absolute;
+		top: 2550px;
+	}
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1114px) and (orientation: landscape) {
+    .footer {
+        position: absolute;
+        width: 110vw;
+    }
+}
+	
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px)and (orientation: landscape) {
+	.footer {
+	position: absolute;
+	top: 2530px;
+    width: 120vw;
+	}
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 1024px)and (orientation: portrait) {
+    .footer {
+        position: absolute;
+        top: 2400px;
+        width: 118vw;
+    }
+}
+    
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 823px)and (orientation: landscape){
+    .footer {
+       width: 145vw;
+       position: absolute;
+       top: 2450px;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 812px) and (orientation: landscape) {
+    .footer {
+        width: 148vw;
+        position: absolute;
+        top: 2450px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 768px) and (orientation: portrait) {	
+    .footer {
+	width: 103vw;
+    position: absolute;
+	top: 2350px;
+   }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 736px) and (orientation: landscape) {
+   .footer {
+       position: absolute;
+       top: 2450px;
+       width: 165vw;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 731px) and (orientation: landscape) {
+    .footer {
+        width: 164vw;
+        position: absolute;
+        top: 2340px;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: portrait) {
+    .footer {
+        width: 110vw;
+        position: absolute;
+        top: 2350px;
+      }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 720px) and (orientation: landscape) {
+    .footer {
+        position: absolute;
+        top: 2400px;
+        width: 170vw;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 667px) and (orientation: landscape){
+    .footer {
+        position: absolute;
+        top: 2350px;
+        width: 180vw;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 653px) and (orientation: landscape){
+    .footer {
+        position: absolute;
+        top: 2450px;
+        width: 182vw;
+    }
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 640px) and (orientation: landscape){
+    .footer {
+        position: absolute;
+		top: 2400px;
+        width: 195vw;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 600px) and (orientation: landscape) {
+    .footer {
+		position: absolute;
+		top: 3500px;
+		width: 150vw;
+	}
+}
+
+/*スマホ向けのレイアウト*/
+@media screen and (max-width: 568px) and (orientation: landscape) {
+    .footer {
+        position: absolute;
+        top: 2350px;
+        width: 220vw;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 540px) and (orientation: portrait) {
+    .footer {
+        position: absolute;
+        top: 2600px;
+        width: 176vw;
+    }
+}
+
+/*タブレット向けのレイアウト*/
+@media screen and (max-width: 512px) and (orientation: portrait) {
+    .footer {
+        position: absolute;
+        width: 160vw;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 450px) and (orientation: portrait){
+	.footer {
+		position: absolute;
+		top: 3400px;
+		width: 200vw;
+	}
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 414px) and (orientation: portrait){
+    .footer {
+        width: 232vw;
+        position: absolute;
+        top: 2450px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 411px) and (orientation: portrait){
+    .footer{
+        position: absolute;
+        top: 2350px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 375px) and (orientation: portrait){
+    .footer {
+        width: 256vw;
+        position: absolute;
+        top: 2300px;
+    }
+}
+
+@media screen and (max-width: 360px) and (orientation: portrait){
+    .footer {
+        width: 230vw;
+        position: absolute;
+        top: 2500px;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 320px) and (orientation: portrait) {
+    .footer {
+        width: 300vw;
+    }
+}
+
+/*スマートフォン向けのレイアウト*/
+@media screen and (max-width: 280px) and (orientation: portrait) {
+	.footer {
+		width: 330vw;
+		position: absolute;
+		top: 2450px;
+	}
+}
